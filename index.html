@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pollution Meter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    
+    <div class="container">
+        
+        
+        <div id="aqi-display">
+            <h2>Current AQI: <span> -- </span></h2>
+        </div>
+
+        <div id="input">
+            <input id="Text-button" type="text" placeholder="Type City Name" >
+            <button id="Search-button" onclick="getpollution()">Search</button>
+        </div>
+
+        <div id="location-section">
+            <button id="location-button" >Use My Location</button>
+        </div>
+
+        <div id="pollutant-breakdown">
+            <ul>
+                <li>PM2.5: <span>--</span></li>
+                <li>PM10: <span>--</span></li>
+                <li>CO: <span>--</span></li>
+                <li>NO2: <span>--</span></li>
+                <li>SO2: <span>-- </span></li>
+                <li>O3: <span>--</span></li>
+            </ul>
+        </div>
+
+        <div id="health-recommendations">
+            <h3>Health Recommendations</h3>
+            <p id="health-advice">--</p>
+            </div>
+
+        
+        
+
+
+    </div>
+    
+</body>
+</html>

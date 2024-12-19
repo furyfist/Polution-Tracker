@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pollution Meter</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script src="script.js" defer ></script>
 </head>
 
 <body>
@@ -19,15 +19,15 @@
 
         <div id="input">
             <input id="Text-button" type="text" placeholder="Type City Name" >
-            <button id="Search-button" onclick="getpollution()">Search</button>
+            <button id="Search-button" onclick=" ">Search</button>
         </div>
 
         <div id="location-section">
             <button id="location-button" >Use My Location</button>
         </div>
 
-        <div id="pollutant-breakdown">
-            <ul>
+        <div id="pollutant-breakdown" onclick="updatePollutantBreakdown(iaqi)">
+            <ul>~
                 <li>PM2.5: <span>--</span></li>
                 <li>PM10: <span>--</span></li>
                 <li>CO: <span>--</span></li>
